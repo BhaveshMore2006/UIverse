@@ -5,6 +5,8 @@
 @layer base {
   body {
     @apply bg-background text-primary-text font-sans antialiased selection:bg-primary-accent/30;
+    background-image: theme('backgroundImage.stars-pattern');
+    background-size: 200px 200px;
     margin: 0;
     padding: 0;
     min-height: 100vh;
